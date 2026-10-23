@@ -1,0 +1,553 @@
+{
+  "versao": 1,
+  "python_minimo": "3.11",
+  "titulo": "DEV_LEARNING_PYTHON",
+  "aulas": [
+    {
+      "id": "01",
+      "titulo": "Primeiros passos e leitura de testes",
+      "modulo": "01_fundamentos",
+      "tipo": "aula",
+      "pre_requisitos": [],
+      "conceito": "estudos/01_fundamentos/aula01_primeiros_passos/CONCEITO.md",
+      "pratica": "praticas/aula01_primeiros_passos/PRATICA.md",
+      "arquivos": [
+        "praticas/aula01_primeiros_passos/pratica.py"
+      ],
+      "teste": "testes/test_aula01_primeiros_passos.py",
+      "modulo_teste": "testes.test_aula01_primeiros_passos",
+      "casos": 2
+    },
+    {
+      "id": "02",
+      "titulo": "Git e registro da evolução",
+      "modulo": "01_fundamentos",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "01"
+      ],
+      "conceito": "estudos/01_fundamentos/aula02_git/CONCEITO.md",
+      "pratica": "praticas/aula02_git/PRATICA.md",
+      "arquivos": [
+        "praticas/aula02_git/pratica.py"
+      ],
+      "teste": "testes/test_aula02_git.py",
+      "modulo_teste": "testes.test_aula02_git",
+      "casos": 4
+    },
+    {
+      "id": "03",
+      "titulo": "Variáveis, tipos e conversões",
+      "modulo": "01_fundamentos",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "02"
+      ],
+      "conceito": "estudos/01_fundamentos/aula03_tipos_conversoes/CONCEITO.md",
+      "pratica": "praticas/aula03_tipos_conversoes/PRATICA.md",
+      "arquivos": [
+        "praticas/aula03_tipos_conversoes/pratica.py"
+      ],
+      "teste": "testes/test_aula03_tipos_conversoes.py",
+      "modulo_teste": "testes.test_aula03_tipos_conversoes",
+      "casos": 5
+    },
+    {
+      "id": "04",
+      "titulo": "Operadores e contas com inteiros",
+      "modulo": "01_fundamentos",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "03"
+      ],
+      "conceito": "estudos/01_fundamentos/aula04_operadores/CONCEITO.md",
+      "pratica": "praticas/aula04_operadores/PRATICA.md",
+      "arquivos": [
+        "praticas/aula04_operadores/pratica.py"
+      ],
+      "teste": "testes/test_aula04_operadores.py",
+      "modulo_teste": "testes.test_aula04_operadores",
+      "casos": 6
+    },
+    {
+      "id": "05",
+      "titulo": "Textos e formatação",
+      "modulo": "01_fundamentos",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "04"
+      ],
+      "conceito": "estudos/01_fundamentos/aula05_textos/CONCEITO.md",
+      "pratica": "praticas/aula05_textos/PRATICA.md",
+      "arquivos": [
+        "praticas/aula05_textos/pratica.py"
+      ],
+      "teste": "testes/test_aula05_textos.py",
+      "modulo_teste": "testes.test_aula05_textos",
+      "casos": 5
+    },
+    {
+      "id": "06",
+      "titulo": "Entrada e saída no terminal",
+      "modulo": "01_fundamentos",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "05"
+      ],
+      "conceito": "estudos/01_fundamentos/aula06_entrada_saida/CONCEITO.md",
+      "pratica": "praticas/aula06_entrada_saida/PRATICA.md",
+      "arquivos": [
+        "praticas/aula06_entrada_saida/pratica.py"
+      ],
+      "teste": "testes/test_aula06_entrada_saida.py",
+      "modulo_teste": "testes.test_aula06_entrada_saida",
+      "casos": 4
+    },
+    {
+      "id": "07",
+      "titulo": "Decisões e expressões booleanas",
+      "modulo": "01_fundamentos",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "06"
+      ],
+      "conceito": "estudos/01_fundamentos/aula07_decisoes/CONCEITO.md",
+      "pratica": "praticas/aula07_decisoes/PRATICA.md",
+      "arquivos": [
+        "praticas/aula07_decisoes/pratica.py"
+      ],
+      "teste": "testes/test_aula07_decisoes.py",
+      "modulo_teste": "testes.test_aula07_decisoes",
+      "casos": 6
+    },
+    {
+      "id": "08",
+      "titulo": "Repetições, contadores e acumuladores",
+      "modulo": "01_fundamentos",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "07"
+      ],
+      "conceito": "estudos/01_fundamentos/aula08_repeticoes/CONCEITO.md",
+      "pratica": "praticas/aula08_repeticoes/PRATICA.md",
+      "arquivos": [
+        "praticas/aula08_repeticoes/pratica.py"
+      ],
+      "teste": "testes/test_aula08_repeticoes.py",
+      "modulo_teste": "testes.test_aula08_repeticoes",
+      "casos": 5
+    },
+    {
+      "id": "09",
+      "titulo": "Listas e preservação dos dados",
+      "modulo": "01_fundamentos",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "08"
+      ],
+      "conceito": "estudos/01_fundamentos/aula09_listas/CONCEITO.md",
+      "pratica": "praticas/aula09_listas/PRATICA.md",
+      "arquivos": [
+        "praticas/aula09_listas/pratica.py"
+      ],
+      "teste": "testes/test_aula09_listas.py",
+      "modulo_teste": "testes.test_aula09_listas",
+      "casos": 5
+    },
+    {
+      "id": "10",
+      "titulo": "Checkpoint: relatório de notas",
+      "modulo": "01_fundamentos",
+      "tipo": "checkpoint",
+      "pre_requisitos": [
+        "09"
+      ],
+      "conceito": "estudos/01_fundamentos/aula10_checkpoint_fundamentos/CONCEITO.md",
+      "pratica": "praticas/aula10_checkpoint_fundamentos/PRATICA.md",
+      "arquivos": [
+        "praticas/aula10_checkpoint_fundamentos/pratica.py"
+      ],
+      "teste": "testes/test_aula10_checkpoint_fundamentos.py",
+      "modulo_teste": "testes.test_aula10_checkpoint_fundamentos",
+      "casos": 5
+    },
+    {
+      "id": "11",
+      "titulo": "Tuplas, conjuntos e desempacotamento",
+      "modulo": "02_organizacao",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "10"
+      ],
+      "conceito": "estudos/02_organizacao/aula11_tuplas_conjuntos/CONCEITO.md",
+      "pratica": "praticas/aula11_tuplas_conjuntos/PRATICA.md",
+      "arquivos": [
+        "praticas/aula11_tuplas_conjuntos/pratica.py"
+      ],
+      "teste": "testes/test_aula11_tuplas_conjuntos.py",
+      "modulo_teste": "testes.test_aula11_tuplas_conjuntos",
+      "casos": 5
+    },
+    {
+      "id": "12",
+      "titulo": "Dicionários e agregação",
+      "modulo": "02_organizacao",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "11"
+      ],
+      "conceito": "estudos/02_organizacao/aula12_dicionarios/CONCEITO.md",
+      "pratica": "praticas/aula12_dicionarios/PRATICA.md",
+      "arquivos": [
+        "praticas/aula12_dicionarios/pratica.py"
+      ],
+      "teste": "testes/test_aula12_dicionarios.py",
+      "modulo_teste": "testes.test_aula12_dicionarios",
+      "casos": 4
+    },
+    {
+      "id": "13",
+      "titulo": "Funções, parâmetros e composição",
+      "modulo": "02_organizacao",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "12"
+      ],
+      "conceito": "estudos/02_organizacao/aula13_funcoes/CONCEITO.md",
+      "pratica": "praticas/aula13_funcoes/PRATICA.md",
+      "arquivos": [
+        "praticas/aula13_funcoes/pratica.py"
+      ],
+      "teste": "testes/test_aula13_funcoes.py",
+      "modulo_teste": "testes.test_aula13_funcoes",
+      "casos": 5
+    },
+    {
+      "id": "14",
+      "titulo": "Compreensões e ordenação",
+      "modulo": "02_organizacao",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "13"
+      ],
+      "conceito": "estudos/02_organizacao/aula14_compreensoes_ordenacao/CONCEITO.md",
+      "pratica": "praticas/aula14_compreensoes_ordenacao/PRATICA.md",
+      "arquivos": [
+        "praticas/aula14_compreensoes_ordenacao/pratica.py"
+      ],
+      "teste": "testes/test_aula14_compreensoes_ordenacao.py",
+      "modulo_teste": "testes.test_aula14_compreensoes_ordenacao",
+      "casos": 4
+    },
+    {
+      "id": "15",
+      "titulo": "Exceções e validação",
+      "modulo": "02_organizacao",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "14"
+      ],
+      "conceito": "estudos/02_organizacao/aula15_excecoes/CONCEITO.md",
+      "pratica": "praticas/aula15_excecoes/PRATICA.md",
+      "arquivos": [
+        "praticas/aula15_excecoes/pratica.py"
+      ],
+      "teste": "testes/test_aula15_excecoes.py",
+      "modulo_teste": "testes.test_aula15_excecoes",
+      "casos": 4
+    },
+    {
+      "id": "16",
+      "titulo": "Módulos, pacotes e anotações de tipo",
+      "modulo": "02_organizacao",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "15"
+      ],
+      "conceito": "estudos/02_organizacao/aula16_modulos/CONCEITO.md",
+      "pratica": "praticas/aula16_modulos/PRATICA.md",
+      "arquivos": [
+        "praticas/aula16_modulos/pratica.py",
+        "praticas/aula16_modulos/operacoes.py"
+      ],
+      "teste": "testes/test_aula16_modulos.py",
+      "modulo_teste": "testes.test_aula16_modulos",
+      "casos": 4
+    },
+    {
+      "id": "17",
+      "titulo": "Checkpoint: resumo de vendas",
+      "modulo": "02_organizacao",
+      "tipo": "checkpoint",
+      "pre_requisitos": [
+        "16"
+      ],
+      "conceito": "estudos/02_organizacao/aula17_checkpoint_colecoes/CONCEITO.md",
+      "pratica": "praticas/aula17_checkpoint_colecoes/PRATICA.md",
+      "arquivos": [
+        "praticas/aula17_checkpoint_colecoes/pratica.py"
+      ],
+      "teste": "testes/test_aula17_checkpoint_colecoes.py",
+      "modulo_teste": "testes.test_aula17_checkpoint_colecoes",
+      "casos": 4
+    },
+    {
+      "id": "18",
+      "titulo": "Arquivos de texto e caminhos",
+      "modulo": "03_persistencia",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "17"
+      ],
+      "conceito": "estudos/03_persistencia/aula18_arquivos/CONCEITO.md",
+      "pratica": "praticas/aula18_arquivos/PRATICA.md",
+      "arquivos": [
+        "praticas/aula18_arquivos/pratica.py"
+      ],
+      "teste": "testes/test_aula18_arquivos.py",
+      "modulo_teste": "testes.test_aula18_arquivos",
+      "casos": 4
+    },
+    {
+      "id": "19",
+      "titulo": "JSON e dados estruturados",
+      "modulo": "03_persistencia",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "18"
+      ],
+      "conceito": "estudos/03_persistencia/aula19_json/CONCEITO.md",
+      "pratica": "praticas/aula19_json/PRATICA.md",
+      "arquivos": [
+        "praticas/aula19_json/pratica.py"
+      ],
+      "teste": "testes/test_aula19_json.py",
+      "modulo_teste": "testes.test_aula19_json",
+      "casos": 5
+    },
+    {
+      "id": "20",
+      "titulo": "CSV e intercâmbio de tabelas",
+      "modulo": "03_persistencia",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "19"
+      ],
+      "conceito": "estudos/03_persistencia/aula20_csv/CONCEITO.md",
+      "pratica": "praticas/aula20_csv/PRATICA.md",
+      "arquivos": [
+        "praticas/aula20_csv/pratica.py"
+      ],
+      "teste": "testes/test_aula20_csv.py",
+      "modulo_teste": "testes.test_aula20_csv",
+      "casos": 4
+    },
+    {
+      "id": "21",
+      "titulo": "Datas e números decimais",
+      "modulo": "03_persistencia",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "20"
+      ],
+      "conceito": "estudos/03_persistencia/aula21_datas_decimal/CONCEITO.md",
+      "pratica": "praticas/aula21_datas_decimal/PRATICA.md",
+      "arquivos": [
+        "praticas/aula21_datas_decimal/pratica.py"
+      ],
+      "teste": "testes/test_aula21_datas_decimal.py",
+      "modulo_teste": "testes.test_aula21_datas_decimal",
+      "casos": 5
+    },
+    {
+      "id": "22",
+      "titulo": "Checkpoint: diário de eventos em JSON",
+      "modulo": "03_persistencia",
+      "tipo": "checkpoint",
+      "pre_requisitos": [
+        "21"
+      ],
+      "conceito": "estudos/03_persistencia/aula22_checkpoint_persistencia/CONCEITO.md",
+      "pratica": "praticas/aula22_checkpoint_persistencia/PRATICA.md",
+      "arquivos": [
+        "praticas/aula22_checkpoint_persistencia/pratica.py"
+      ],
+      "teste": "testes/test_aula22_checkpoint_persistencia.py",
+      "modulo_teste": "testes.test_aula22_checkpoint_persistencia",
+      "casos": 5
+    },
+    {
+      "id": "23",
+      "titulo": "Classes, objetos e estado",
+      "modulo": "04_modelagem",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "22"
+      ],
+      "conceito": "estudos/04_modelagem/aula23_classes/CONCEITO.md",
+      "pratica": "praticas/aula23_classes/PRATICA.md",
+      "arquivos": [
+        "praticas/aula23_classes/pratica.py"
+      ],
+      "teste": "testes/test_aula23_classes.py",
+      "modulo_teste": "testes.test_aula23_classes",
+      "casos": 6
+    },
+    {
+      "id": "24",
+      "titulo": "Dataclasses e composição de objetos",
+      "modulo": "04_modelagem",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "23"
+      ],
+      "conceito": "estudos/04_modelagem/aula24_composicao/CONCEITO.md",
+      "pratica": "praticas/aula24_composicao/PRATICA.md",
+      "arquivos": [
+        "praticas/aula24_composicao/pratica.py"
+      ],
+      "teste": "testes/test_aula24_composicao.py",
+      "modulo_teste": "testes.test_aula24_composicao",
+      "casos": 4
+    },
+    {
+      "id": "25",
+      "titulo": "Herança e polimorfismo",
+      "modulo": "04_modelagem",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "24"
+      ],
+      "conceito": "estudos/04_modelagem/aula25_polimorfismo/CONCEITO.md",
+      "pratica": "praticas/aula25_polimorfismo/PRATICA.md",
+      "arquivos": [
+        "praticas/aula25_polimorfismo/pratica.py"
+      ],
+      "teste": "testes/test_aula25_polimorfismo.py",
+      "modulo_teste": "testes.test_aula25_polimorfismo",
+      "casos": 5
+    },
+    {
+      "id": "26",
+      "titulo": "Iteradores, geradores e processamento em lotes",
+      "modulo": "04_modelagem",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "25"
+      ],
+      "conceito": "estudos/04_modelagem/aula26_geradores/CONCEITO.md",
+      "pratica": "praticas/aula26_geradores/PRATICA.md",
+      "arquivos": [
+        "praticas/aula26_geradores/pratica.py"
+      ],
+      "teste": "testes/test_aula26_geradores.py",
+      "modulo_teste": "testes.test_aula26_geradores",
+      "casos": 5
+    },
+    {
+      "id": "27",
+      "titulo": "Escrita de testes e investigação de falhas",
+      "modulo": "05_aplicacoes",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "26"
+      ],
+      "conceito": "estudos/05_aplicacoes/aula27_testes_debugging/CONCEITO.md",
+      "pratica": "praticas/aula27_testes_debugging/PRATICA.md",
+      "arquivos": [
+        "praticas/aula27_testes_debugging/pratica.py",
+        "praticas/aula27_testes_debugging/test_pratica.py"
+      ],
+      "teste": "testes/test_aula27_testes_debugging.py",
+      "modulo_teste": "testes.test_aula27_testes_debugging",
+      "casos": 3
+    },
+    {
+      "id": "28",
+      "titulo": "SQL e persistência com SQLite",
+      "modulo": "05_aplicacoes",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "27"
+      ],
+      "conceito": "estudos/05_aplicacoes/aula28_sqlite/CONCEITO.md",
+      "pratica": "praticas/aula28_sqlite/PRATICA.md",
+      "arquivos": [
+        "praticas/aula28_sqlite/pratica.py"
+      ],
+      "teste": "testes/test_aula28_sqlite.py",
+      "modulo_teste": "testes.test_aula28_sqlite",
+      "casos": 5
+    },
+    {
+      "id": "29",
+      "titulo": "HTTP, URLs e contratos de resposta",
+      "modulo": "05_aplicacoes",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "28"
+      ],
+      "conceito": "estudos/05_aplicacoes/aula29_http_contratos/CONCEITO.md",
+      "pratica": "praticas/aula29_http_contratos/PRATICA.md",
+      "arquivos": [
+        "praticas/aula29_http_contratos/pratica.py"
+      ],
+      "teste": "testes/test_aula29_http_contratos.py",
+      "modulo_teste": "testes.test_aula29_http_contratos",
+      "casos": 5
+    },
+    {
+      "id": "30",
+      "titulo": "Concorrência com tarefas independentes",
+      "modulo": "05_aplicacoes",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "29"
+      ],
+      "conceito": "estudos/05_aplicacoes/aula30_concorrencia/CONCEITO.md",
+      "pratica": "praticas/aula30_concorrencia/PRATICA.md",
+      "arquivos": [
+        "praticas/aula30_concorrencia/pratica.py"
+      ],
+      "teste": "testes/test_aula30_concorrencia.py",
+      "modulo_teste": "testes.test_aula30_concorrencia",
+      "casos": 3
+    },
+    {
+      "id": "31",
+      "titulo": "Aplicações de linha de comando",
+      "modulo": "05_aplicacoes",
+      "tipo": "aula",
+      "pre_requisitos": [
+        "30"
+      ],
+      "conceito": "estudos/05_aplicacoes/aula31_linha_comando/CONCEITO.md",
+      "pratica": "praticas/aula31_linha_comando/PRATICA.md",
+      "arquivos": [
+        "praticas/aula31_linha_comando/pratica.py"
+      ],
+      "teste": "testes/test_aula31_linha_comando.py",
+      "modulo_teste": "testes.test_aula31_linha_comando",
+      "casos": 5
+    },
+    {
+      "id": "32",
+      "titulo": "Projeto final: gerenciador de tarefas",
+      "modulo": "06_projeto_final",
+      "tipo": "projeto_final",
+      "pre_requisitos": [
+        "31"
+      ],
+      "conceito": "estudos/06_projeto_final/aula32_projeto_final/CONCEITO.md",
+      "pratica": "praticas/aula32_projeto_final/PRATICA.md",
+      "arquivos": [
+        "praticas/aula32_projeto_final/pratica.py",
+        "praticas/aula32_projeto_final/repositorio.py",
+        "praticas/aula32_projeto_final/README_PROJETO.md"
+      ],
+      "teste": "testes/test_aula32_projeto_final.py",
+      "modulo_teste": "testes.test_aula32_projeto_final",
+      "casos": 8
+    }
+  ]
+}
