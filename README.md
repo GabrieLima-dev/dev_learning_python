@@ -1,10 +1,29 @@
 # DEV_LEARNING_PYTHON
 
-Aprenda Python no seu computador: leia a aula, resolva a prática, execute os testes e registre sua conclusão. **Todo o material já está neste repositório e funciona sem IA.** Depois de instalar as ferramentas e clonar o projeto, as aulas e avaliações funcionam sem internet.
+Aprenda Python no seu computador: leia a aula, resolva a prática, execute os testes e registre sua conclusão. **Todo o material já está neste repositório** Depois de instalar as ferramentas e clonar o projeto, as aulas e avaliações funcionam sem internet.
 
 São **32 aulas, 3 checkpoints e 149 casos públicos de avaliação**, dos primeiros passos até um gerenciador de tarefas com SQLite. Cada prática informa quais dados recebe, o que deve devolver, quais erros são esperados e quais exemplos serão verificados. O código inicial tem TODOs para você resolver; falhas nas práticas ainda não implementadas são esperadas.
 
 [Comece pelo índice das aulas](estudos/README.md) · [Como ler testes](docs/COMO_LER_TESTES.md) · [Guia do professor](docs/PROFESSOR.md) · [Referências](docs/REFERENCIAS.md)
+
+## Como usar — passo a passo rápido
+
+Se ainda não instalou o Python ou baixou o projeto, siga primeiro as seções **1. Instalar o necessário** e **2. Clonar sua cópia**, abaixo.
+
+1. **Abra a pasta do projeto no editor e abra um terminal nessa pasta.** Você deve estar onde fica o arquivo `estudar.py`.
+2. **Execute o comando de começar ou retomar**, indicado na tabela abaixo. Ele mostra os caminhos dos arquivos da sua aula atual.
+3. **Leia e pratique.** Abra o `CONCEITO.md` para estudar, depois o `PRATICA.md` para entender a tarefa e os resultados esperados. Complete os TODOs no `pratica.py` e salve o arquivo.
+4. **Execute o comando de testar.** Se aparecer uma falha, leia o caso indicado, corrija sua prática e teste novamente. Quando aparecer `OK`, confira o checklist no enunciado.
+5. **Execute o comando de concluir.** Ele testa novamente e salva seu progresso se tudo passar. Depois, use o comando de retomar para encontrar a próxima aula.
+
+| O que fazer | Windows — PowerShell | macOS ou Linux — Terminal |
+|---|---|---|
+| Começar ou retomar | `py -3 estudar.py continuar` | `python3 estudar.py continuar` |
+| Testar a aula atual | `py -3 estudar.py testar` | `python3 estudar.py testar` |
+| Concluir após conferir o checklist | `py -3 estudar.py concluir --revisei` | `python3 estudar.py concluir --revisei` |
+| Consultar seu progresso | `py -3 estudar.py status` | `python3 estudar.py status` |
+
+**Na próxima vez, basta abrir a pasta e executar `continuar`: o sistema lembra onde você parou.** Você lê os materiais no editor e usa o terminal para executar os comandos; não precisa pedir nada a uma IA.
 
 ## O que você vai aprender
 
